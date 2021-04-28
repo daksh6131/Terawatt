@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+-->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>TeraWatt Testing </title>
+  </head>
+
+  <body>
+    
+      <header class="sticky" id="myHeader">
+        <img src="icon.png" alt="company logo"> 
+
+        <nav class="naviLinks" id="navbar">
+          <ul>
+            <li><a href="#"> HOME </a></li>
+            <li><a href="#"> ABOUT </a></li>
+            <li><a href="#"> OUR SERVICES </a></li>
+            <li id="contactUs"><a href="#"> CONTACT US </a></li>
+            <!-- <li class="toggle"> <span class="bars"> </span> </li> -->
+          </ul>
+        </nav>
+      </header>
+    <!-- background image  -->
+      <div class="imageContainer">
+       <!-- hero section content  -->
+        <div class="flexContainer-1"> 
+            <div class="flex-item" id="flex-item-1">
+        <h1>Workspace that inspire</h1>
+        <p>Lorem ipsum dolor sit amet,
+             consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
+             <button class="button"> CONTACT US </button>
+    </div>
+    <div class="flex-item" id="flex-item-2">
+        <img src="image1.png" id="heroimg"> </image>
+    </div>
+    </div>
+      
+        <div class="flexContainer-2">
+            
+        </div>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        function hamburger() {
+  var ham = document.createElement("li");
+  para.innerHTML = "class= ";
+  document.getElementById("myDIV").appendChild(para);
+}
+   
+        </script>
+  </body>
+</html>
