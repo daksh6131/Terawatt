@@ -228,7 +228,7 @@ p {
 }
 
 .gallery {
-  width: 100vw; 
+  width: 100vw !important; 
   background: url(solarpanel.png) no-repeat fixed center center ;
   height: 45vh;
   border-radius: 8px;
@@ -236,6 +236,12 @@ p {
 
 #byline {
   justify-self: flex-end;
+}
+
+#services{
+  font-size: 18px;
+line-height: 32px;
+list-style-type: none;
 }
 
 @media only screen and (max-width: 576px) {
@@ -342,4 +348,4 @@ p {
   }
 
 
-} 
+}
