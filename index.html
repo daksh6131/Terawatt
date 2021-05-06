@@ -19,14 +19,19 @@
   <body>
     
       <header class="sticky" id="myHeader">
-        <img src="icon.png" alt="company logo"> 
-
-        <nav class="naviLinks" id="navbar">
+        <img src="icon.png" id="logo" alt="company logo"> 
+        <label for="toggle"> <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3.99988" y="11" width="18.1818" height="2.18182" rx="1" fill="#1A1A1A"/>
+          <rect x="9.0907" y="18.0908" width="18.1818" height="2.18182" rx="1" fill="#1A1A1A"/>
+          </svg> </label>
+            <input type="checkbox" id="toggle"/>
+        <nav class="naviLinks" >
           <ul>
             <li><a href="#"> HOME </a></li>
-            <li><a href="#"> ABOUT </a></li>
+            <li><a href="#about"> ABOUT </a></li>
             <li><a href="#"> OUR SERVICES </a></li>
             <li id="contactUs"><a href="#"> CONTACT US </a></li>
+             
             <!-- <li class="toggle"> <span class="bars"> </span> </li> -->
           </ul>
         </nav>
@@ -39,35 +44,51 @@
         <h1>Workspace that inspire</h1>
         <p>Lorem ipsum dolor sit amet,
              consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
-             <button class="button"> CONTACT US </button>
+             <button class="button"> CONTACT US 
+
+             </button>
     </div>
     <div class="flex-item" id="flex-item-2">
-        <img src="image1.png" id="heroimg"> </image>
+        <img src="heroImage_max.png" 
+        srcset="heroImage_max.png 800w,
+        heroImage_min.png 576w"
+      sizes="(max-width: 576px) 576px  "
+       id="heroimg"> </image>
     </div>
     </div>
       
-        <div class="flexContainer-2">
-            
-        </div>
+       
     </div>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
 
-        function hamburger() {
-  var ham = document.createElement("li");
-  para.innerHTML = "class= ";
-  document.getElementById("myDIV").appendChild(para);
+    <div class="mainCont">
+      <div class="aboutUs" id="about">
+        <h3>
+          Who are we?
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet,consectetur adipiscing elit. 
+          Nunc odio in et, lectus sit lorem id integer.Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit. Nunc odio in et, lectus sit lorem 
+          teger.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et,lectus sit lorem id integer.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
+        </p>
+      </div>
+      <div class="aboutUs" id="aboutUs-Image">
+        <img src="aboutus.png" alt="images of laboratory" id="aboutuspng">
+      </div>
+      </div>
+
+      <div class="mainCont-2">
+        <div class="gallery">
+        </div>
+       <div class="galleryByline">
+         <h3> Solar panels: A neccisity </h3>
+         <p id="byline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis scelerisque at quam congue posuere libero in sit quam. Consequat, 
+           scelerisque non tincidunt sit lectus senectus.</p>
+         
+       </div> 
+      </div>
+
+    
 }
    
         </script>
