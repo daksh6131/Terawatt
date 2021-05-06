@@ -216,6 +216,7 @@ p {
 }
 
 .galleryByline {
+  padding-top: 4vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -228,9 +229,13 @@ p {
 }
 
 .gallery {
-  width: 100vw; 
+  width: auto; 
   background: url(solarpanel.png) no-repeat fixed center center ;
   height: 45vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 8px;
 }
 
