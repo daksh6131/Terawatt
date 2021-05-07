@@ -228,13 +228,20 @@ p {
   padding-left: 10vw;
 }
 
+.commercial {
+  background: url(commercial.png) no-repeat ;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding : 3vh 0px 5vh 0px;
+}
+
 .gallery {
   width: auto; 
   background: url(solarpanel.png) no-repeat fixed center center ;
   height: 45vh;
-  background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
 }
@@ -249,7 +256,14 @@ line-height: 32px;
 list-style-type: none;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 899px) {
+
+  #logo{
+
+    height: 8vmin;
+
+  }
+
   label {
     display: block;
     cursor: pointer;
@@ -330,6 +344,12 @@ list-style-type: none;
     font-weight: 450;
     font-size: 14px;
   }
+
+  #flex-item-1 > .button{
+    align-self: center;
+    justify-self: center;
+  }
+
   .button {
     font-size: 14px;
     
