@@ -306,6 +306,13 @@ max-width: 40vw;
   padding-right: 3vw;
 }
 
+.links > a{
+  font-size: 18px;
+  color:#1a1a1a;
+  text-decoration: none;
+  padding-right: 3vw;
+}
+
 @media only screen and (max-width: 899px) {
   #logo {
     height: 9vmin;
