@@ -4,17 +4,15 @@
 } */
 
 * {
-  color: #18191f;
   box-sizing: border-box;
   font-family: "Aileron", sans-serif;
   margin: 0px;
   padding: 0px;
-
+  color: #1a1a1a;
 }
 
 body {
   overflow-x: hidden;
-  
 }
 
 html {
@@ -203,6 +201,7 @@ h1 {
   flex-direction: column;
   width: 100vw;
   padding: 5vh 10vw 0 10vw;
+  color: #f79e22 !important;
 }
 
 h3 {
@@ -231,18 +230,18 @@ p {
 }
 
 .commercial {
-  background: url(commercial.png) no-repeat ;
+  background: url(commercial.png) no-repeat;
   height: 100vh;
   width: auto;
   background-position: center;
   background-size: cover;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  padding : 3vh 0px 5vh 0px;
+  padding: 3vh 0px 5vh 0px;
 }
 
 .gallery {
-  width: auto; 
+  width: auto;
   background: url(machine.jpg) no-repeat;
   height: 60vh;
   background-position: center;
@@ -254,13 +253,13 @@ p {
   justify-self: flex-end;
 }
 
-#services{
+#services {
   font-size: 18px;
-line-height: 32px;
-list-style-type: none;
+  line-height: 32px;
+  list-style-type: none;
 }
 
-.contactContainer{
+.contactContainer {
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -268,28 +267,48 @@ list-style-type: none;
   height: 80vh;
 }
 
-h4{
+h4 {
   font-weight: bold;
-font-size: 24px;
-padding: 2vh 0px 2vh;
+  font-size: 24px;
+  padding: 2vh 0px 2vh;
 }
-.contactDiv{
-  
+.contactDiv {
   text-align: center;
   max-width: 33vw;
 }
-.contactTiles{
+.contactTiles {
   height: 170px;
   width: 170px;
 }
 
+.servicesWeProvide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.service-row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 2vh;
+}
+
+.service-item {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-bottom: 5vh;
+
+max-width: 40vw;
+}
+
+#item-1, #item-3, #item-5{
+  padding-right: 3vw;
+}
+
 @media only screen and (max-width: 899px) {
-
-
-  #logo{
-
+  #logo {
     height: 9vmin;
-
   }
 
   label {
@@ -374,14 +393,13 @@ padding: 2vh 0px 2vh;
     font-size: 14px;
   }
 
-  #flex-item-1 > .button{
+  #flex-item-1 > .button {
     align-self: center;
     justify-self: center;
   }
 
   .button {
     font-size: 14px;
-    
   }
 
   #toggle:checked + .naviLinks {
@@ -396,18 +414,15 @@ padding: 2vh 0px 2vh;
   }
 
   .gallery {
-    width: 80vw; 
+    width: 80vw;
     height: 40vh;
-    
   }
 
   .commercial {
     width: 80vw;
     height: 50vh;
-    
-    
   }
-  .contactContainer{
+  .contactContainer {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -415,23 +430,27 @@ padding: 2vh 0px 2vh;
     height: auto;
     padding-top: 2vh;
   }
-  
-  h4{
+
+  h4 {
     font-weight: bold;
-  font-size: 18px;
-
+    font-size: 18px;
   }
-  .contactDiv{
-
+  .contactDiv {
     max-width: 45vw;
     margin-bottom: 3vh;
     margin-top: 3vh;
     align-self: center;
   }
 
-  .contactTiles{
+  .contactTiles {
     height: 20vmin;
     width: 20vmin;
-    
+  }
+
+  .service-row{
+    flex-direction: column;
+  }
+  .service-item {
+   max-width: 80vw;
   }
 }
