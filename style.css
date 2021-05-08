@@ -411,6 +411,7 @@ padding: 2vh 0px 2vh;
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     height: auto;
     padding-top: 2vh;
   }
@@ -421,8 +422,11 @@ padding: 2vh 0px 2vh;
 
   }
   .contactDiv{
+
     max-width: 45vw;
     margin-bottom: 3vh;
+    margin-top: 3vh;
+    align-self: center;
   }
 
   .contactTiles{
