@@ -461,6 +461,6 @@ width: 40vw !important;
     flex-direction: column;
   }
   .service-item {
-   max-width: 80vw;
+   width: 80vw;
   }
 }
