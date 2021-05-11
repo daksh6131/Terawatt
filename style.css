@@ -337,6 +337,13 @@ width: 40vw ;
   #logo {
     height: 9vmin;
   }
+  #aboutUs-Image{
+    padding-left:0px;
+  }
+
+  #aboutUs-Image2{
+    padding-right: 0vw;
+  }
 
   label {
     display: block;
@@ -477,6 +484,6 @@ width: 40vw ;
     flex-direction: column;
   }
   .service-item {
-   max-width: 80vw;
+   width: 80vw;
   }
 }
