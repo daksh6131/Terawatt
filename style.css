@@ -406,11 +406,10 @@ width: 40vw ;
     line-height: 120%;
   }
 
-  /* h3 {
+  h3 {
     font-size: 28px;
-    padding-top: 20vh;
-   
-  } */
+     
+  }
   p {
     font-size: 14px;
   }
