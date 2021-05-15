@@ -31,8 +31,10 @@ header {
   font-size: 16px;
   font-style: normal;
   width: 100vw;
+  background-color: #ffffff 50%;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
+  z-index: 100000;
 }
 
 label {
