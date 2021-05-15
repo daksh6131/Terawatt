@@ -390,8 +390,7 @@ h4 {
     display: flex;
     padding: 10vw 10vw 0 10vw;
     height: 100vh !important;
-    align-items: center;
-    justify-content:center ;
+    
   }
 
   .mainCont {
@@ -478,6 +477,14 @@ h4 {
     height: auto;
     padding-top: 2vh;
   }
+  .contactContainerLanding {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 2vh;
+  }
 
   h4 {
     font-weight: bold;
@@ -501,4 +508,11 @@ h4 {
   .service-item {
     width: 80vw;
   }
+
+  .links > a {
+    margin-top: 2vh;
+    
+    padding-bottom: 2vh;
+  }
+
 }
